@@ -49,7 +49,7 @@ const pizzas = [
 ];
 
 // DESARROLLO
-// 1. Pizzas con un id impar
+// 1. Pizzas con un id impar.
 
 const filtrarIdImpar = pizzas.filter(numero => {
   return numero.id % 2 != 0 
